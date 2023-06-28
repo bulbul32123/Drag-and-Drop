@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 100vh;
+ }
+.AppBody{
+    border: 3px dotted #d1d6d6;
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+    flex-direction: column;
+}
+.AppBody:hover{
+    border: 3px solid #d1d6d6;
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 20px 100px;
+}
+.Icon{
+    font-size: 100px;
+    color: #3d3d;
+}
+.AppBody h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+.AppBody span{
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+    margin: 10px 0px 10px 0;
+}
+.AppBody.active{
+    border: 3px solid #3d3d;
+}
+.AppBody button{
+    font-size: 20px;
+    color: rgba(19, 147, 7, 0.867);
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.AppBody img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#btn{
+    position: absolute;
+    bottom: 5%;
+    color: rgba(255, 255, 255, 0.867);
+    font-weight: 300;
+    padding: 15px;
+    background-color: rgb(3, 125, 5);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
